@@ -3,11 +3,13 @@ body{
      
   font-family: "Open Sans", sans-serif;
  
-
+    
 }
-/* nav related style */
+/* nav related style start */
 nav{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .nav-title{
     color: rgba(30, 30, 30, 1);
@@ -21,6 +23,7 @@ nav{
 }
 nav> ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -34,5 +37,34 @@ nav li a{
 .btn-primary{
     color: white;
     background-color: #FD6E0A;
-    font-weight: bold;
+    font-weight: 700px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    
 }
+
+/* nav related style end */
+
+
+/* Header related style start*/
+
+.header{
+    background-color: #FFF8F3;
+    
+}
+.banner{
+    display: flex;
+    padding: 100px 100px 100px 240px;
+    align-items: center;
+}
+
+
+.banner-pic{
+    width: 600px;
+}
+
+
+/* Header related style end*/
+
