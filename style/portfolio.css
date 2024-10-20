@@ -52,19 +52,110 @@ nav li a{
 
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 .banner{
     display: flex;
-    padding: 100px 100px 100px 240px;
+    padding: 100px 100px 0px 240px;
     align-items: center;
+    justify-content: space-between;
+   
+}
+.banner-content{
+    max-width:500px;
 }
 
 
-.banner-pic{
-    width: 600px;
+ .banner-pic{
+    width: 500px;
+    
 }
 
+.banner-greetings{
+    color: #474747;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
 /* Header related style end*/
 
+
+
+/* About section start*/
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.About{
+    padding: 130px;
+    margin: 130px 0px;
+    background:#FFF8F3;;
+    border-radius: 10px;
+}
+
+.section-title{
+    clear: #181818;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    /* width: 790px; */
+    /* justify-content: center; */
+    font-weight: 100;
+   
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 100;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -17px;
+}
+
+
+
+/* About section end*/
+
+
+/* What I do section start */
+
+
+
+
+
+/* What I do section end */
