@@ -231,3 +231,39 @@ hr{
 
 
 /* Resume style end  */
+
+/* footer section start  */
+
+footer{
+    display: flex;
+    gap: 100px;
+    /* align-items: center; */
+    background: #FFF8F3;
+    padding: 150px 200px;
+    margin-top: 100px;
+}
+.footer-section{
+    width: 50%;
+}
+
+.footer-description{
+    color:#474747;
+    font-size: 16px;
+    font-weight: 100;
+}
+.social-link a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    color: #757575;
+    padding: 18px 35px;
+    background: #ffff;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* footer section end */
