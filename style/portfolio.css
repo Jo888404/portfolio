@@ -147,15 +147,87 @@ main{
     margin-top: -17px;
 }
 
-
+main section{
+    margin-top: 130px;
+}
 
 /* About section end*/
 
 
 /* What I do section start */
 
+#description{
+    padding: 30px 150px;
+}
 
+.skills-containner{
+    display: flex;
+    gap: 24px;
+    border-radius: 10px;
+}
+.skill{
+    padding: 30px;
+    background: #fff;
+    box-shadow: 6px 6px 6px 6px #a2a1a1;
+    border-radius: 5px;
 
-
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 100;
+}
 
 /* What I do section end */
+
+
+
+/* Resume style start  */
+
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-containner{
+    display: flex;
+  
+}
+.resume-col{
+    margin: 10px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 600;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+.download-btn{
+   text-align: center;
+   margin-top: 50px;
+
+}
+hr{
+    margin-top: 30px;
+}
+
+
+/* Resume style end  */
